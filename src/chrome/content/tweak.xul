@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+
+<!-- Copyright 2004, 2005 Edwin Martin edwin@bitstorm.org -->
+<!-- This code is triple licensed under MPL/GPL/LGPL. See license.txt for details. -->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://tweak/locale/tweak.dtd">
+
+
+<window id="tweak-window"
+title="&tweak.label;"
+orient="vertical"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+onload="load()"
+style="padding: 10px">
+<script type="application/x-javascript" src="chrome://tweak/content/tweak.js"/>
+
+
+
+<groupbox>
+<caption label="&tweak.max.label;"/>
+
+<grid>
+  <columns>
+    <column/>
+    <column width="60"/>
+  </columns>
+
+  <rows>
+    <row align="end">
+	<description>&tweak.max.connections.label;</description>
+	<textbox id="max-connections"/>
+    </row>
+    <row align="end">
+	<description>&tweak.max.server.label;</description>
+	<textbox id="max-connections-per-server"/>
+    </row>
+    <row align="end">
+	<description>&tweak.max.persistent.server.label;</description>
+	<textbox id="max-persistent-connections-per-server"/>
+    </row>
+    <row align="end">
+	<description>&tweak.max.persistent.proxy.label;</description>
+	<textbox id="max-persistent-connections-per-proxy"/>
+    </row>
+  </rows>
+</grid>
+</groupbox>
+
+<groupbox>
+<caption label="&tweak.pipelining.label;"/>
+
+<checkbox id="pipelining" label="&tweak.pipelining.label;"/>
+<checkbox id="proxy.pipelining" label="Proxy pipelining"/>
+
+<grid>
+  <columns>
+    <column/>
+    <column width="60"/>
+  </columns>
+
+  <rows>
+    <row align="end">
+	<description>&tweak.pipelining.maxrequests.label;</description>
+	<textbox id="pipelining.maxrequests"/>
+    </row>
+  </rows>
+</grid>
+</groupbox>
+
+<groupbox>
+<caption label="&tweak.profiles.label;"/>
+<hbox>
+<button id="tweak-dialog-default" flex="1" label="&tweak.profiles.default.label;" oncommand="setFormDefault()"/>
+<button id="tweak-dialog-power" flex="1" label="&tweak.profiles.power.label;" oncommand="setFormPower()"/>
+</hbox>
+</groupbox>
+
+<separator/>
+
+<hbox>
+<spacer flex="1"/>
+<button id="tweak-dialog-ok" label="&tweak.Ok.label;" oncommand="saveSettings();window.close()"/>
+<button id="tweak-dialog-cancel" label="&tweak.cancel.label;" oncommand="window.close()"/>
+<button id="tweak-dialog-ok" label="&tweak.apply.label;" oncommand="saveSettings()"/>
+</hbox>
+
+</window>

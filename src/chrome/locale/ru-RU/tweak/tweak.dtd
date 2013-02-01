@@ -1,0 +1,25 @@
+<!ENTITY tweak.label "Настройки сетевых параметров">
+<!ENTITY tweak.max.label "Максимальное число соединений">
+<!ENTITY tweak.max.connections.label "Всего соединений:">
+<!ENTITY tweak.max.server.label "Всего соединений на сервер:">
+<!ENTITY tweak.max.persistent.server.label "Всего постоянных соединений на сервер:">
+<!ENTITY tweak.max.persistent.proxy.label "Всего постоянных соединений на прокси:">
+<!ENTITY tweak.pipelining.label "Использовать конвеерную обработку">
+<!ENTITY tweak.pipelining.proxy.label "Использовать конвеерную обработку через прокси">
+<!ENTITY tweak.pipelining.maxrequests.label "Всего конвеерных запросов:">
+<!ENTITY tweak.profiles.label "Рекомендуемые профили">
+<!ENTITY tweak.profiles.default.label "Стандартный">
+<!ENTITY tweak.profiles.power.label "Продвинутый">
+<!ENTITY tweak.Ok.label "Принять">
+<!ENTITY tweak.cancel.label "Отменить">
+<!ENTITY tweak.apply.label "Применить">
+<!ENTITY tweak.menu.label "Настройки сети">
+<!ENTITY tweak.menu.accesskey "Н">
+<!ENTITY tweak.warning.label "Предупреждение !!!">
+<!ENTITY tweak.warning.value "Предупреждение: изменение сетевых настроек может улучшить или ухудшить работу браузера. Выбирайте значения осмысленно. Используйте значения большие, чем в Продвинутом профиле, только если Вы знаете, что делаете. Вы всегда можете вернуться к Стандартному профилю.">
+<!ENTITY tweak.warning.show "Не показывать предупреждение">
+<!ENTITY tweak.about.label "О сетевых настройках">
+<!ENTITY tweak.version.label "версия">
+<!ENTITY tweak.creator.label "Автор:">
+<!ENTITY tweak.home.label "Домашняя страница:">
+<!ENTITY tweak.close.label "Закрыть">

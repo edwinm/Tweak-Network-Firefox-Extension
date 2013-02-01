@@ -1,0 +1,25 @@
+<!ENTITY tweak.label "Tweak Network Settings">
+<!ENTITY tweak.max.label "Max verbindingen">
+<!ENTITY tweak.max.connections.label "Max verbindingen:">
+<!ENTITY tweak.max.server.label "Max verbindingen per server:">
+<!ENTITY tweak.max.persistent.server.label "Max blijvende verbindingen per server:">
+<!ENTITY tweak.max.persistent.proxy.label "Max blijvende verbindingen per proxy:">
+<!ENTITY tweak.pipelining.label "Pipelining">
+<!ENTITY tweak.pipelining.proxy.label "Proxy pipelining">
+<!ENTITY tweak.pipelining.maxrequests.label "Pipelining max verbindingen:">
+<!ENTITY tweak.profiles.label "Profielen">
+<!ENTITY tweak.profiles.default.label "Standaard">
+<!ENTITY tweak.profiles.power.label "Power">
+<!ENTITY tweak.Ok.label "OK">
+<!ENTITY tweak.cancel.label "Annuleren">
+<!ENTITY tweak.apply.label "Toepassen">
+<!ENTITY tweak.menu.label "Tweak Network Settings">
+<!ENTITY tweak.menu.accesskey "T">
+<!ENTITY tweak.warning.label "Tweak Waarschuwing">
+<!ENTITY tweak.warning.value "Waarschuwing: het aanpassen van de netwerkinstellingen kan het browsen verbeteren, maar kan het ook verslechteren. Kies de waarden wijselijk. Gebruik alleen waarden hoger dan in het Powerprofiel als je weet wat je doet. Je kunt altijd terugkeren naar het standaardprofiel.">
+<!ENTITY tweak.warning.show "Deze waarschuwing niet meer tonen">
+<!ENTITY tweak.about.label "Tweak Network - Over">
+<!ENTITY tweak.version.label "versie">
+<!ENTITY tweak.creator.label "Gemaakt door:">
+<!ENTITY tweak.home.label "Thuispagina:">
+<!ENTITY tweak.close.label "Sluiten">

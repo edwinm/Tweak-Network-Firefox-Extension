@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<!-- Copyright 2004 Edwin Martin edwin@bitstorm.org -->
+<!-- This code is triple licensed under MPL/GPL/LGPL. See license.txt for details. -->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://tweak/locale/tweak.dtd">
+
+<window id="tweak-warning-window"
+title="&tweak.warning.label;"
+orient="vertical"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+style="padding: 10px">
+<script type="application/x-javascript" src="chrome://tweak/content/tweak.js"/>
+
+<hbox>
+<vbox>
+<spacer flex="1"/>
+<image class="alert-icon" width="32px" height="32px"/>
+<spacer flex="2"/>
+</vbox>
+<spacer width="10px"/>
+<textbox id="warning" multiline="true" rows="5" cols="60" readonly="true" style="padding: 3px" value="&tweak.warning.value;"/>
+</hbox>
+
+<hbox>
+<spacer flex="1"/>
+<checkbox id="show-warning" label="&tweak.warning.show;"/>
+<spacer flex="1"/>
+</hbox>
+
+<hbox>
+<spacer flex="1"/>
+<button id="tweak-warning-ok" label="&tweak.Ok.label;" oncommand="warningOk()"/>
+<spacer flex="1"/>
+</hbox>
+
+</window>

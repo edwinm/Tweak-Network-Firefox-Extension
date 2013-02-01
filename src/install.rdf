@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<RDF	xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>{DAD0F81A-CF67-4eed-98D6-26F6E47274CA}</em:id>
+		<em:name>Tweak Network</em:name>
+		<em:version>1.5.5</em:version>
+		<em:description>Tweak network settings.</em:description>
+		<em:creator>Edwin Martin</em:creator>
+		<em:translator>Михаил</em:translator>
+		<em:homepageURL>http://www.bitstorm.org/extensions/tweak/</em:homepageURL>
+		<em:iconURL>chrome://tweak/skin/tweak-small.png</em:iconURL>
+		<em:aboutURL>chrome://tweak/content/about.xul</em:aboutURL>
+		<em:optionsURL>chrome://tweak/content/tweak.xul</em:optionsURL>
+		<em:type>2</em:type>
+		<em:unpack>false</em:unpack>
+
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>1.0</em:minVersion>
+				<em:maxVersion>17.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+	</Description>
+</RDF>

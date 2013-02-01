@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NS1="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$TrzB82"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="4.0.*"
+                   NS1:updateLink="http://www.bitstorm.org/extensions/tweak/tweak.xpi" />
+  <RDF:Seq RDF:about="rdf:#$PrzB82">
+    <RDF:li RDF:resource="rdf:#$QrzB82"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mozilla:extension:{DAD0F81A-CF67-4eed-98D6-26F6E47274CA}"
+                   NS1:version="1.5.2"
+                   NS1:updateLink="http://www.bitstorm.org/extensions/tweak/tweak.xpi"
+                   NS1:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAGTM6SbPutO6eJqYGO12JQweE9rVkQUloY0Ly456YrKw8O9Osny7LKo3aGcysJ6aiV/FpE9vnMj5GiKT4htX20svvR0RPcblzL5NmAvnUGaoBNDcBevO0tYU8GFTnO7m97ffCkMUZnPxQBAaYTSDfjBZWF6ecCMuN/LH+89YI4z+">
+    <NS1:updates RDF:resource="rdf:#$PrzB82"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   NS1:updateKey="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXb98optkyrrJIVToKO0esoFnmRlRp2qNe5V9yOzA6+9QbKaHTNMvbJ9/STAB69gSK7GeNuGTKMxu+hKHtLXVlYHUjruMfsKIv6k2cr+VVS4IKios/dWuOOl7L6HKKV6de/vImDpqkk8GqqUTQ5hXOrOTpoNKIr8yy23vMpnL5RwIDAQAB" />
+  <RDF:Description RDF:about="rdf:#$QrzB82"
+                   NS1:version="1.5.2">
+    <NS1:targetApplication RDF:resource="rdf:#$TrzB82"/>
+  </RDF:Description>
+</RDF:RDF>

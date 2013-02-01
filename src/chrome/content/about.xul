@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright 2004-2011 Edwin Martin edwin@bitstorm.org -->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://tweak/locale/tweak.dtd">
+
+<window class="dialog"
+	title="&tweak.about.label;"
+	orient="vertical"
+	autostretch="always"
+	onload="sizeToContent()"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<!-- Original template by Jed Brown -->
+
+<groupbox align="center" orient="horizontal">
+<vbox>
+  <text value="&tweak.label;" style="font-weight: bold; font-size: x-large;"/>
+  <text value="&tweak.version.label; 1.5.5"/>
+  <separator class="thin"/>
+  <text value="&tweak.creator.label;" style="font-weight: bold;"/>
+  <text value="Edwin Martin" class="url"
+        onclick="window.open('http://www.bitstorm.org/'); window.close();"/>
+  <separator class="thin"/>
+    <text value="&tweak.home.label;" style="font-weight: bold;"/>
+    <text value="http://www.bitstorm.org/extensions/tweak/"
+          class="url"
+        onclick="window.open('http://www.bitstorm.org/extensions/tweak/'); window.close();"/>
+  <separator class="thin"/>
+</vbox>
+<spring flex="1"/>
+<image src="chrome://tweak/skin/tweak-about.png"/>
+</groupbox>
+
+  <hbox>
+  <spacer flex="1"/>
+   <button label="&tweak.close.label;" oncommand="window.close();"/>
+  </hbox>
+
+</window>

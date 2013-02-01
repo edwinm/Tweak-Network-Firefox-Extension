@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<!-- Copyright 2004, 2005 Edwin Martin edwin@bitstorm.org -->
+<!-- This code is triple licensed under MPL/GPL/LGPL. See license.txt for details. -->
+
+<!DOCTYPE overlay SYSTEM "chrome://tweak/locale/tweak.dtd">
+
+<overlay id="tweakOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://tweak/content/tweak.js"></script>
+
+	<menupopup id="menu_ToolsPopup">
+		<menuitem insertafter="devToolsSeparator" label="&tweak.menu.label;"
+		accesskey="&tweak.menu.accesskey;" oncommand="showDialog();" />	
+	</menupopup>
+
+</overlay>
+
