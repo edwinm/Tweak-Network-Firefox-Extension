@@ -6,6 +6,8 @@ skin	tweak	classic/1.0	jar:chrome/tweak.jar!/skin/classic/
 
 locale	tweak	en-US	jar:chrome/tweak.jar!/locale/en-US/tweak/
 
+locale	tweak	es	jar:chrome/tweak.jar!/locale/es/tweak/
+
 locale	tweak	nl-NL	jar:chrome/tweak.jar!/locale/nl-NL/tweak/
 
 locale	tweak	ru-RU	jar:chrome/tweak.jar!/locale/ru-RU/tweak/

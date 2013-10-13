@@ -1,0 +1,26 @@
+﻿<!ENTITY tweak.label "Ajustes de red - Tweak Network -">
+<!ENTITY tweak.max.label "Conexiones máximas">
+<!ENTITY tweak.max.connections.label "Conexiones máximas:">
+<!ENTITY tweak.max.server.label "Conexiones máximas por servidor:">
+<!ENTITY tweak.max.persistent.server.label "Conexiones persistentes máximas por servidor:">
+<!ENTITY tweak.max.persistent.proxy.label "Conexiones persistentes máximas por proxy:">
+<!ENTITY tweak.pipelining.label "Pipelining (HTTP asíncrono)">
+<!ENTITY tweak.pipelining.noproxy.label "Pipelining">
+<!ENTITY tweak.pipelining.proxy.label "Proxy pipelining">
+<!ENTITY tweak.pipelining.maxrequests.label "Peticiones máximas con pipelining:">
+<!ENTITY tweak.profiles.label "Perfiles">
+<!ENTITY tweak.profiles.default.label "Predeterminado">
+<!ENTITY tweak.profiles.power.label "Potente">
+<!ENTITY tweak.Ok.label "Aceptar">
+<!ENTITY tweak.cancel.label "Cancelar">
+<!ENTITY tweak.apply.label "Aplicar">
+<!ENTITY tweak.menu.label "Ajustes de red - Tweak Network -">
+<!ENTITY tweak.menu.accesskey "r">
+<!ENTITY tweak.warning.label "Advertencia sobre ajustes">
+<!ENTITY tweak.warning.value "Advertencia: cambiar los parametros de red puede mejorar su experiencia navegando, pero también puede degradarla. Elija los valores sabiamente. Sólo use valores más altos que los del perfil Potente cuando sepa lo que está haciendo. Siempre puede volver al perfil Predeterminado estable.">
+<!ENTITY tweak.warning.show "No mostrar esta advertencia de nuevo">
+<!ENTITY tweak.about.label "Acerca de Tweak Network">
+<!ENTITY tweak.version.label "versión">
+<!ENTITY tweak.creator.label "Creado por:">
+<!ENTITY tweak.home.label "Página principal:">
+<!ENTITY tweak.close.label "Cerrar">
