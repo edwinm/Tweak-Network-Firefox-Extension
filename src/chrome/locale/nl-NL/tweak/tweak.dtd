@@ -5,6 +5,7 @@
 <!ENTITY tweak.max.persistent.server.label "Max blijvende verbindingen per server:">
 <!ENTITY tweak.max.persistent.proxy.label "Max blijvende verbindingen per proxy:">
 <!ENTITY tweak.pipelining.label "Pipelining">
+<!ENTITY tweak.pipelining.noproxy.label "Pipelining">
 <!ENTITY tweak.pipelining.proxy.label "Proxy pipelining">
 <!ENTITY tweak.pipelining.maxrequests.label "Pipelining max verbindingen:">
 <!ENTITY tweak.profiles.label "Profielen">

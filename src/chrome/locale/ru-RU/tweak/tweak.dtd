@@ -1,10 +1,11 @@
-<!ENTITY tweak.label "Настройки сетевых параметров">
+﻿<!ENTITY tweak.label "Настройки сетевых параметров">
 <!ENTITY tweak.max.label "Максимальное число соединений">
 <!ENTITY tweak.max.connections.label "Всего соединений:">
 <!ENTITY tweak.max.server.label "Всего соединений на сервер:">
 <!ENTITY tweak.max.persistent.server.label "Всего постоянных соединений на сервер:">
 <!ENTITY tweak.max.persistent.proxy.label "Всего постоянных соединений на прокси:">
 <!ENTITY tweak.pipelining.label "Использовать конвеерную обработку">
+<!ENTITY tweak.pipelining.noproxy.label "Использовать конвеерную обработку">
 <!ENTITY tweak.pipelining.proxy.label "Использовать конвеерную обработку через прокси">
 <!ENTITY tweak.pipelining.maxrequests.label "Всего конвеерных запросов:">
 <!ENTITY tweak.profiles.label "Рекомендуемые профили">

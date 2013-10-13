@@ -51,8 +51,8 @@ style="padding: 10px">
 <groupbox>
 <caption label="&tweak.pipelining.label;"/>
 
-<checkbox id="pipelining" label="&tweak.pipelining.label;"/>
-<checkbox id="proxy.pipelining" label="Proxy pipelining"/>
+<checkbox id="pipelining" label="&tweak.pipelining.noproxy.label;"/>
+<checkbox id="proxy.pipelining" label="&tweak.pipelining.proxy.label;"/>
 
 <grid>
   <columns>
