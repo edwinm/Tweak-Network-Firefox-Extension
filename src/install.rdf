@@ -9,8 +9,6 @@
 		<em:version>1.5.5</em:version>
 		<em:description>Tweak network settings.</em:description>
 		<em:creator>Edwin Martin</em:creator>
-		<em:translator>strel</em:translator>
-		<em:translator>Михаил</em:translator>
 		<em:homepageURL>http://www.bitstorm.org/extensions/tweak/</em:homepageURL>
 		<em:iconURL>chrome://tweak/skin/tweak-small.png</em:iconURL>
 		<em:aboutURL>chrome://tweak/content/about.xul</em:aboutURL>
@@ -25,6 +23,28 @@
 				<em:maxVersion>17.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
+
+		<em:localized>
+			<Description>
+				<em:locale>es</em:locale>
+				<em:description>Ajusta las configuraciones de red.</em:description>
+				<em:translator>strel</em:translator>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>nl-NL</em:locale>
+				<em:description>Tweak network settings.</em:description>
+				<em:translator>Edwin Martin</em:translator>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>ru-RU</em:locale>
+				<em:description>Tweak network settings.</em:description>
+				<em:translator>Михаил</em:translator>
+			</Description>
+		</em:localized>
 
 	</Description>
 </RDF>
