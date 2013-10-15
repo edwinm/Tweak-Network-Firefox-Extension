@@ -16,7 +16,7 @@ xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
 	</RDF:Seq>
 
 	<RDF:Description RDF:about="urn:mozilla:package:tweak"
-		chrome:displayName="Tweak Network 1.5.5"
+		chrome:displayName="Tweak Network 1.6"
 		chrome:author="Edwin Martin"
 		chrome:authorURL="mailto:edwin@bitstorm.org"
 		chrome:name="tweak"

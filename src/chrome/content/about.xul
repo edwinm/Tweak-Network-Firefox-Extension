@@ -18,7 +18,7 @@
 <groupbox align="center" orient="horizontal">
 <vbox>
   <text value="&tweak.label;" style="font-weight: bold; font-size: x-large;"/>
-  <text value="&tweak.version.label; 1.5.5"/>
+  <text value="&tweak.version.label; 1.6"/>
   <separator class="thin"/>
   <text value="&tweak.creator.label;" style="font-weight: bold;"/>
   <text value="Edwin Martin" class="url"

@@ -6,7 +6,7 @@
 	<Description about="urn:mozilla:install-manifest">
 		<em:id>{DAD0F81A-CF67-4eed-98D6-26F6E47274CA}</em:id>
 		<em:name>Tweak Network</em:name>
-		<em:version>1.5.5</em:version>
+		<em:version>1.6</em:version>
 		<em:description>Tweak network settings.</em:description>
 		<em:creator>Edwin Martin</em:creator>
 		<em:homepageURL>http://www.bitstorm.org/extensions/tweak/</em:homepageURL>
@@ -14,7 +14,7 @@
 		<em:aboutURL>chrome://tweak/content/about.xul</em:aboutURL>
 		<em:optionsURL>chrome://tweak/content/tweak.xul</em:optionsURL>
 		<em:type>2</em:type>
-		<em:unpack>false</em:unpack>
+		<em:unpack>true</em:unpack>
 
 		<em:targetApplication>
 			<Description>
